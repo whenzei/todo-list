@@ -1,0 +1,24 @@
+.container {
+    font-size: 2rem;
+    border: 0.5px solid pink;
+    margin: 2px 20px;
+    border-radius: 10px;
+    background-color: rgb(154, 154, 210);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+    font-weight: 1000;
+    color: darkred;
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration: line-through;
+}
